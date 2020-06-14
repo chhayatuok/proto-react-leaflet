@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+// eslint-disable-next-line
+import { Map, CircleMarker, TileLayer } from "react-leaflet";
+import "leaflet/dist/leaflet.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Map
+          style={{ height: "580px", width: "80%" }}
+          zoom={10}
+          center={[45.5017, -73.5673]}>
+          <TileLayer
+            url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution = '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
+          />
+        </Map>
+      </div>
+    );
+  }
 }
 
 export default App;
