@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/proto-react-leaflet/static/css/main.5f361e03.chunk.css",
+    "main.js": "/proto-react-leaflet/static/js/main.72d7c01a.chunk.js",
+    "main.js.map": "/proto-react-leaflet/static/js/main.72d7c01a.chunk.js.map",
+    "runtime-main.js": "/proto-react-leaflet/static/js/runtime-main.1cd774e6.js",
+    "runtime-main.js.map": "/proto-react-leaflet/static/js/runtime-main.1cd774e6.js.map",
+    "static/js/2.0bfb0576.chunk.js": "/proto-react-leaflet/static/js/2.0bfb0576.chunk.js",
+    "static/js/2.0bfb0576.chunk.js.map": "/proto-react-leaflet/static/js/2.0bfb0576.chunk.js.map",
+    "index.html": "/proto-react-leaflet/index.html",
+    "precache-manifest.89a54d975ad927ad880ffe5d5edafc99.js": "/proto-react-leaflet/precache-manifest.89a54d975ad927ad880ffe5d5edafc99.js",
+    "service-worker.js": "/proto-react-leaflet/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/proto-react-leaflet/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0bfb0576.chunk.js.LICENSE.txt": "/proto-react-leaflet/static/js/2.0bfb0576.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/proto-react-leaflet/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cd774e6.js",
+    "static/js/2.0bfb0576.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.72d7c01a.chunk.js"
+  ]
+}
