@@ -1,17 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// eslint-disable-next-line
+import { Map, CircleMarker, TileLayer } from "react-leaflet";
+import "leaflet/dist/leaflet.css"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import 'reset-css'; //Reset css styles
+import styled from 'styled-components';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// eslint-disable-next-line
+const Container = styled.div`
+    display: flex;
+`;
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Map
+          style={{ height: "580px", width: "80%" }}
+          zoom={10}
+          center={[45.5017, -73.5673]}>
+          <TileLayer
+            url="http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution = '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
+          />
+        </Map>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
