@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/proto-react-leaflet/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/proto-react-leaflet/static/js/main.a209798f.chunk.js",
-    "main.js.map": "/proto-react-leaflet/static/js/main.a209798f.chunk.js.map",
+    "main.js": "/proto-react-leaflet/static/js/main.4670f47c.chunk.js",
+    "main.js.map": "/proto-react-leaflet/static/js/main.4670f47c.chunk.js.map",
     "runtime-main.js": "/proto-react-leaflet/static/js/runtime-main.1cd774e6.js",
     "runtime-main.js.map": "/proto-react-leaflet/static/js/runtime-main.1cd774e6.js.map",
-    "static/css/2.7c35e809.chunk.css": "/proto-react-leaflet/static/css/2.7c35e809.chunk.css",
-    "static/js/2.e83c51d8.chunk.js": "/proto-react-leaflet/static/js/2.e83c51d8.chunk.js",
-    "static/js/2.e83c51d8.chunk.js.map": "/proto-react-leaflet/static/js/2.e83c51d8.chunk.js.map",
+    "static/css/2.d66161d4.chunk.css": "/proto-react-leaflet/static/css/2.d66161d4.chunk.css",
+    "static/js/2.4a08e66f.chunk.js": "/proto-react-leaflet/static/js/2.4a08e66f.chunk.js",
+    "static/js/2.4a08e66f.chunk.js.map": "/proto-react-leaflet/static/js/2.4a08e66f.chunk.js.map",
     "index.html": "/proto-react-leaflet/index.html",
-    "precache-manifest.2d08d789bf636a0ccb9528c4c320e9fe.js": "/proto-react-leaflet/precache-manifest.2d08d789bf636a0ccb9528c4c320e9fe.js",
+    "precache-manifest.d05443e0591958018a475725d8ac3d27.js": "/proto-react-leaflet/precache-manifest.d05443e0591958018a475725d8ac3d27.js",
     "service-worker.js": "/proto-react-leaflet/service-worker.js",
-    "static/css/2.7c35e809.chunk.css.map": "/proto-react-leaflet/static/css/2.7c35e809.chunk.css.map",
-    "static/css/main.5ecd60fb.chunk.css.map": "/proto-react-leaflet/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.e83c51d8.chunk.js.LICENSE.txt": "/proto-react-leaflet/static/js/2.e83c51d8.chunk.js.LICENSE.txt"
+    "static/css/2.d66161d4.chunk.css.map": "/proto-react-leaflet/static/css/2.d66161d4.chunk.css.map",
+    "static/js/2.4a08e66f.chunk.js.LICENSE.txt": "/proto-react-leaflet/static/js/2.4a08e66f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1cd774e6.js",
-    "static/css/2.7c35e809.chunk.css",
-    "static/js/2.e83c51d8.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.a209798f.chunk.js"
+    "static/css/2.d66161d4.chunk.css",
+    "static/js/2.4a08e66f.chunk.js",
+    "static/js/main.4670f47c.chunk.js"
   ]
 }
